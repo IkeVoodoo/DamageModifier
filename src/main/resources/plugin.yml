@@ -1,0 +1,9 @@
+name: DamageModifier
+version: '${project.version}'
+main: me.ikevoodoo.damagemodifier.DamageModifierPlugin
+api-version: '1.17'
+
+commands:
+  reload-modifiers:
+    description: Reloads the damage modifiers
+    permission: damagemodifier.reload

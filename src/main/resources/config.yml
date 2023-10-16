@@ -1,0 +1,16 @@
+modifiers:
+  test_modifier:
+    # Specifies which entity is affected
+    entity: player
+
+    # The cause for the damage. Must be provided
+    cause: entity_attack
+
+    # The source of the damage, optional
+    source: zombie
+
+    # Specifies how to use the value
+    mode: ADD
+
+    # The amount to use, operation is specified by mode
+    value: 5
